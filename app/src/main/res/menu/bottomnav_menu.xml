@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_nav_home"
+        android:icon="@drawable/ic_outline_home_24"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/bottom_nav_calendar"
+        android:icon="@drawable/ic_outline_calendar_today_24"
+        android:title="Calendar"/>
+
+    <item
+        android:id="@+id/bottom_nav_files"
+        android:icon="@drawable/ic_outline_drive_file_move_24"
+        android:title="Files"/>
+
+    <item
+        android:id="@+id/bottom_nav_gallery"
+        android:icon="@drawable/ic_outline_photo_library_24"
+        android:title="Gallery"/>
+
+    <item
+        android:id="@+id/bottom_nav_payments"
+        android:icon="@drawable/ic_outline_payment_24"
+        android:title="Payments"/>
+</menu>

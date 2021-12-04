@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Android_KiCoKalender</string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="next"><![CDATA[->]]></string>
+    <string name="user_login">You have logged in!</string>
+    <string name="login_error">Email or password combination does not exist</string>
+    <string-array name="roles">
+        <item>Parent</item>
+        <item>Child</item>
+    </string-array>
+</resources>

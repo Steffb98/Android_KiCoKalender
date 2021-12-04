@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parentView"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cellDayText"
+        android:text="1"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/cellDayEvent1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="event1"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:maxLines="1"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cellDayEvent2"
+        android:text="event2"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:maxLines="1"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cellDayEvent3"
+        android:text="event3"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:maxLines="1"
+        android:visibility="invisible"/>
+
+</LinearLayout>
